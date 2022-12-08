@@ -43,10 +43,14 @@ $$= \frac{1}{2}(x + \frac{S}{x})$$
 Compute/approximate $\sqrt{S}$ for $S=335$. Let initial guess $x_0=20$.
 To perform Babylonian method we have $f(x)=x^2 - S$ and $g(x)=\frac{1}{2}(x + \frac{S}{x})$.
 
-$$x_{k+1} = \frac{1}{2}(x_k + \frac{S}{x_k})$$
+$$x_{k+1} = g(x_k) = \frac{1}{2}(x_k + \frac{S}{x_k})$$
 
-$$x_1 = \frac{1}{2}(x_0 + \frac{S}{x_0}) = \frac{1}{2}(20 + \frac{335}{20})$$
+$$x_1 = \frac{1}{2}(x_0 + \frac{S}{x_0}) = \frac{1}{2}(20 + \frac{335}{20}) = 18.375$$
 
+$$x_2 = \frac{1}{2}(x_1 + \frac{S}{x_1}) = \frac{1}{2}(18.375 + \frac{335}{18.375}) = 18.303$$
+
+$$x_3 = \frac{1}{2}(x_2 + \frac{S}{x_2}) = \frac{1}{2}(18.303 + \frac{335}{18.303}) = 18.303$$
+For the sake of our example, 3 decimals of precision is enough. Thus we can approximate that $\sqrt{335} \approx 18.303$.
 ## Pseudocode
 Below is pseudocode to represent the algorithms in this paper in a more readable form.
 ### Fixed-Point Iteration
