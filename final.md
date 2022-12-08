@@ -36,29 +36,31 @@ For example, try:
 
 ## Section 1
 
-* Hey
+* An appropriate explanation of the key points of the topic
 
+## Section 2
 
-## Some things you are allowed to do but might not be obvious
+* Description of methods used to solve the problem
 
-* You _are_ allowed to use external links! You are also encouraged to cite other books and papers (see below for that).
-* You _are_ allowed to use HTML within your Markdown document, so long as it renders appropriately within Github. 
-You should check that it does render appropriately by creating a private Github repository for your report and ensuring it works as you expect! 
+## Section 3
 
-## How to submit
+* Here talk about the special case of Newton's method
+* Is Newton's method technically a special case of fixed point?
 
-Submit your document formatted as a `.zip` (if you included images) or `.md` (if not) to Canvas.
+## Section 4
 
-__Be sure to create a (private) repository on your own Github profile to make sure that your report shows up as you intended!__
+* Pseudocode
 
-Include the following header at the top of your `.md` file:
-```
----
-Name: Your Name
-Topic: [Topic Number]
-Title: Title of your article
-----
-```
+## References
+
+1. References
+2. Can
+3. Go
+4. Here
+5. Like
+6. This
+7. Bryngelson, S. H., & Freund, J. B. (2018). Global stability of flowing red blood cell trains. Physical Review Fluids, 3(7). https://doi.org/10.1103/physrevfluids.3.073101 
+
 
 ## Formatting 
 
@@ -138,12 +140,3 @@ From the `topics.md` document:
 	* Include a table of contents
 	* References and URL refs. in an appropriate location.
 
-## References
-
-1. References
-2. Can
-3. Go
-4. Here
-5. Like
-6. This
-7. Bryngelson, S. H., & Freund, J. B. (2018). Global stability of flowing red blood cell trains. Physical Review Fluids, 3(7). https://doi.org/10.1103/physrevfluids.3.073101 
