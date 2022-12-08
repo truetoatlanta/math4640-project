@@ -36,10 +36,10 @@ Title: Fixed point iteration method and Newton's method
 A special case of Newton's method to compute square roots is the Babylonian method, 
 which was used as far back as the ancient Greek times. To approximate some value $\sqrt{S}$, if 
 x is an overestimate, then $\frac{S}{x}$ would be an underestimate. The rationale was that the average of 
-these two values, $\frac{1}{2}(x + \frac{S}{x})$, could be a better approximation for $\sqrt{S}$ (Fowler & Robson, 1998). With enough iterations, the approximation would 
+these two values, $\frac{1}{2}(x + \frac{S}{x})$, could be better for the $\sqrt{S}$ approximation (Fowler & Robson, 1998). With enough iterations, the approximation would 
 converge to an accurate square root value.
 
-This "average of the two values" can be equivalently deduced by employing Newton's method and solving for the roots of the function $f(x) = x^2 - S$. Newton's method can be viewed as a version of fixed-point iteration method $x = g(x)$ where $g(x)$ is defined as $g(x) = x - \frac{f(x)}{f'(x)}$ (Heath, 2009). Thus: 
+This "average of the two values" can be equivalently deduced by employing Newton's method and solving for the roots of the function $f(x) = x^2 - S$. Newton's method can be viewed as a version of fixed-point iteration method $x = g(x)$ where $g(x)$ is defined as $g(x) = x - \frac{f(x)}{f'(x)}$ for approximation (Heath, 2009). Thus: 
 $$g(x) = x - \frac{x^2 - S}{2x}$$
 $$= \frac{2x^2}{2x} - \frac{x^2-S}{2x} $$
 $$= \frac{1}{2}(\frac{x^2+S}{x})$$
