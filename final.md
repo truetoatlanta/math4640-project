@@ -67,7 +67,7 @@ Title: Fixed point iteration method and Newton's method
     max_iterations as maximum number of iterations
     tolerance as tolerance to stop iterations
 5. for (k in max_iterations)
-	y0 = f(x0)
+	y = f(x0)
 	yprime = fprime(x0)
 	count = count + 1
 
@@ -79,7 +79,7 @@ Title: Fixed point iteration method and Newton's method
 	    print "Did not converge"
 	    return None
 
-	x1 = x0 - y0/yprime
+	x1 = x0 - y/yprime
 
 	if |x1 - x0| < tolerance
 	    return x1
