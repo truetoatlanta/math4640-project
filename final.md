@@ -10,9 +10,9 @@ Title: Fixed point iteration method and Newton's method
 ## Table of Contents
 
 
-* [Section 1](#Section-1)
+* [History and Analysis](#History-and-Analysis)
 	* [test](#test)
-* [Section 2](#Section-2)
+* [Description](#Description)
 * [Reasons for failure](#Reasons-for-failure)
 * [Special Case of Newton's Method](#Special-Case-of-Newtons-method)
     * [Example](#Example)
@@ -20,12 +20,12 @@ Title: Fixed point iteration method and Newton's method
     * [Fixed-Point Iteration Method](#Fixed-Point-Iteration-Method)
     * [Newton's Method](#Newtons-Method)
 * [References](#References)
-## Section 1
+## History and Analysis
 
 * An appropriate explanation of the key points of the topic
 ### test
 * hey
-## Section 2
+## Description
 
 * Description of methods used to solve the problem
 
