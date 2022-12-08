@@ -10,7 +10,7 @@ Title: Fixed point iteration method and Newton's method
 ## Table of Contents
 
 
-* [Section 1](#Section1)
+* [Section 1](#Section 1)
 
 * Description of methods used to solve the problem
 	* Algorithms you learned! And perhaps some we didn't have time to go over.
@@ -32,17 +32,13 @@ For example, try:
 	* Here are some such examples 
 		* http://www.scholarpedia.org/article/Galerkin_methods
 		* http://www.scholarpedia.org/article/Meshless_methods_for_PDEs
-		* https://en.wikipedia.org/wiki/Euler_method
+		* https://en.wikipedia.org/wiki/Euler_method 
 
-## What your report should not contain
-
-* Videos (But `.gif` is acceptable! Though __do not__ upload anything that is more than 25MB large. Github will reject it.)
-* Grammar or spelling errors
-* Plagarism. I will check your documents (it's easy to do this, since they will all be plain text). If you plagarize, it will be obvious. 
-
-## Section1
+## Section 1
 
 * Hey
+
+
 ## Some things you are allowed to do but might not be obvious
 
 * You _are_ allowed to use external links! You are also encouraged to cite other books and papers (see below for that).
