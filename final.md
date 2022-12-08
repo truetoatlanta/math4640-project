@@ -53,7 +53,7 @@ $$x_2 = \frac{1}{2}(x_1 + \frac{S}{x_1}) = \frac{1}{2}(18.375 + \frac{335}{18.37
 $$x_3 = \frac{1}{2}(x_2 + \frac{S}{x_2}) = \frac{1}{2}(18.303 + \frac{335}{18.303}) = 18.303$$
 For the sake of our example, 3 decimals of precision is enough. Thus we can approximate that $\sqrt{335} \approx 18.303$.
 ## Pseudocode
-Below is pseudocode to represent the algorithms in this paper in a more readable form.
+Below is pseudocode for the fixed-point iteration and newton's method algorithms.
 ### Fixed-Point Iteration
 ```
 1. Define f(x) from given function f(x) = 0
