@@ -13,7 +13,7 @@ Title: Fixed point iteration method and Newton's method
 * [Section 1](#Section-1)
 	* [test](#test)
 * [Section 2](#Section-2)
-* [Section 3](#Section-3)
+* [Special Cases](#Special-Cases)
 * [Pseudocode](#Pseudocode)
 	* [Fixed-Point Iteration](#Fixed-Point-Iteration)
 	* [Newton's Method](#Newtons-Method)
@@ -27,7 +27,7 @@ Title: Fixed point iteration method and Newton's method
 
 * Description of methods used to solve the problem
 
-## Section 3
+## Special Cases
 A special case of Newton's method to compute square roots is the Babylonian method, 
 which was used as far back as the ancient Greek times. To approximate some value $\sqrt{S}$
 * Here talk about the special case of Newton's method
