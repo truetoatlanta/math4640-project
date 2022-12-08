@@ -11,9 +11,9 @@ Title: Fixed point iteration method and Newton's method
 
 
 * [History and Analysis](#History-and-Analysis)
-	* [test](#test)
-* [Description](#Description)
+	* [Fixed-Point Example](#fixed-point-example)
 * [Reasons for failure](#Reasons-for-failure)
+	* [Fixed-Point Iteration Failures](#fixed-point-iteration-failures)
 * [Special Case of Newton's Method](#Special-Case-of-Newtons-method)
     * [Example](#Example)
 * [Pseudocode](#Pseudocode)
@@ -50,10 +50,6 @@ where we can approximate from fixed-point iteration that one of the roots to f(x
 Newton's method further elaborates on this by providing a more educated  
 ### test
 * hey
-## Description
-
-* Description of methods used to solve the problem
-
 ## Reasons for failure
 However, these algorithms and methods are not perfect and can fail for any multidude of reasons.
 ### Fixed-Point Iteration Failures
@@ -71,7 +67,7 @@ $$g'(x) = \frac{-4}{(x-3)^2}$$
 $$g'(4) = \frac{-4}{1} = -4$$
 $$|-4| > 1$$
 $$g'(-1) = \frac{-4}{16} = \frac{-1}{4}$$
-$$|\frac{-1}{4} < 1$$
+$$|\frac{-1}{4}| < 1$$
 So fixed-point iteration will diverge if we are looking for root 4, but will locally converge when looking for root -1. 
 
 Ideally, we would like a faster convergence, such that $g'(x) = 0$ so that the convergence rate is quadratic, and not linear. However, a constant such as $\frac{-1}{4}$ will still locally converge as shown in the example.
