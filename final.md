@@ -11,9 +11,13 @@ Title: Fixed point iteration method and Newton's method
 
 
 * [History and Analysis](#History-and-Analysis)
+	* [Fixed-Point](#fixed-point)
 	* [Fixed-Point Example](#fixed-point-example)
+	* [Newton](#newton)
+	* [Newton's Method Example](#newtons-method-example)
 * [Reasons for failure](#Reasons-for-failure)
 	* [Fixed-Point Iteration Failures](#fixed-point-iteration-failures)
+	* [Newton's Method Failures](#Newtons-Method-failures)
 * [Special Case of Newton's Method](#Special-Case-of-Newtons-method)
     * [Example](#Example)
 * [Pseudocode](#Pseudocode)
@@ -21,7 +25,7 @@ Title: Fixed point iteration method and Newton's method
     * [Newton's Method](#Newtons-Method)
 * [References](#References)
 ## History and Analysis
-
+### Fixed-Point
 The fixed-point iteration method is used to find solutions for f(x) = 0. By rewriting f(x) in such a way to define a function g such that x = g(x), we have "a fixed point of the function g, since x is unchanged when g is applied to it" (Heath, 2009, p.225).
 
 ### Fixed-Point Example
@@ -48,8 +52,10 @@ $$x_6 = g(x_5) = \frac{4}{-1.007-3} = -0.998$$
 $$x_7 = g(x_6) = \frac{4}{-0.998-3} = -1.000$$
 where we can approximate from fixed-point iteration that one of the roots to f(x) is -1.
 Newton's method further elaborates on this by providing a more educated  
-### test
+### Newton
 * hey
+### Newton's Method Example
+example here! 
 ## Reasons for failure
 However, these algorithms and methods are not perfect and can fail for any multidude of reasons.
 ### Fixed-Point Iteration Failures
@@ -71,6 +77,8 @@ $$|\frac{-1}{4}| < 1$$
 So fixed-point iteration will diverge if we are looking for root 4, but will locally converge when looking for root -1. 
 
 Ideally, we would like a faster convergence, such that $g'(x) = 0$ so that the convergence rate is quadratic, and not linear. However, a constant such as $\frac{-1}{4}$ will still locally converge as shown in the example.
+### Newton's Method Failures
+hey
 ## Special Case of Newton's method
 A special case of Newton's method to compute square roots is the Babylonian method, 
 which was used as far back as the ancient Greek times. To approximate some value $\sqrt{S}$, if 
