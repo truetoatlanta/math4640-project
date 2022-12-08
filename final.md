@@ -97,6 +97,19 @@ Although Newton's method can usually converge more quickly than fixed-point iter
 * If the derivative of f(x) is evaluated as 0, meaning a stationary point, then the method will fail as it is not possible to divide by zero.
 * If the derivative of f(x) does not exist or is discontinuous at the root, Newton's method will fail.
 * If the initial guess is too far away from the actual root, Newton's method may not converge. To determine if this will be the case, it is the same process as used to check divergence in [fixed point methods](#fixed-point-iteration-failures) but with $g(x) = x - f(x)/f'(x)$.
+* For some functions, using certain starting points results in an edge case where it may enter an infinite cycle.
+#### Edge Case
+Suppose we have $f(x) = x^3 - 2x + 2$ and $f'(x) = 3x^2 - 2$.
+
+If we are to perform Newton's method, starting with $x_0=0$ as our initial guess, we get:
+
+$$x_{k+1} = x_k - f(x_k)/f'(x_k)$$
+$$x_1 = x_0 - f(x_0)/f'(x_0) = 1$$
+$$x_2 = x_1 - f(x_1)/f'(x_1) = 0$$
+$$x_3 = x_2 - f(x_2)/f'(x_2) = 1$$
+$$x_4 = x_3 - f(x_3)/f'(x_3) = 0$$
+
+where the iterations enter a cycle, looping between 0 and 1 infinitely without reaching a better approximation.
 ## Special Case of Newton's Method
 A special case of Newton's method to compute square roots is the Babylonian method, 
 which was used as far back as the ancient Greek times. To approximate some value $\sqrt{S}$, if 
