@@ -5,10 +5,10 @@ Topic: 19
 Title: Fixed point iteration method and Newton's method
 ---
 ```
-# CX/MATH 4640 Final Project
-## What your report should contain
+# Fixed point iteration method and Newton's method
 
-__In your own words.__
+## Table of Contents
+
 
 * An appropriate explanation of the key points of the topic (see "Audience" below)
 
