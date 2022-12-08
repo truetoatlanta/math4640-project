@@ -38,9 +38,9 @@ Title: Fixed point iteration method and Newton's method
 f(x): given function where f(x) = 0
 g(x): convert f(x) into form x = g(x)
 x0: initial guess
-__for__ k=0,1,2,...
+<b>for</b> k=0,1,2,...
 	x1 = g(x0)
-__end__
+<b>end</b>
 End iterations if maximum iterations or error tolerance reached.	
 ```
 ### Newton's Method
