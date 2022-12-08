@@ -1,4 +1,9 @@
 # CX/MATH 4640 Final Project
+---
+Name: Hanson Jiang
+Topic: 19
+Title: Fixed point iteration method and Newton's method
+---
 
 ## What your report should contain
 
