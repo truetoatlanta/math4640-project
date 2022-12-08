@@ -16,7 +16,7 @@ Title: Fixed point iteration method and Newton's method
 * [Special Case of Newton's Method](#Special-Case-of-Newtons-method)
     * [Example](#Example)
 * [Pseudocode](#Pseudocode)
-    * [Fixed-Point Iteration](#Fixed-Point-Iteration)
+    * [Fixed-Point Iteration Method](#Fixed-Point-Iteration-Method)
     * [Newton's Method](#Newtons-Method)
 * [References](#References)
 ## Section 1
@@ -54,7 +54,7 @@ $$x_3 = \frac{1}{2}(x_2 + \frac{S}{x_2}) = \frac{1}{2}(18.303 + \frac{335}{18.30
 For the sake of our example, 3 decimals of precision is enough. Thus we can approximate that $\sqrt{335} \approx 18.303$.
 ## Pseudocode
 Below is pseudocode for the fixed-point iteration and Newton's method algorithms.
-### Fixed-Point Iteration
+### Fixed-Point Iteration Method
 ```
 1. Define f(x) from given function f(x) = 0
 2. Define g(x) by converting f(x) into form x = g(x)
