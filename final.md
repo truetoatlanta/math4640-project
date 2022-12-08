@@ -55,13 +55,15 @@ Newton's method further elaborates on this by providing a more educated
 * Description of methods used to solve the problem
 
 ## Reasons for failure
-However, these algorithms and methods are not perfect and can fail any multidude of reasons.
+However, these algorithms and methods are not perfect and can fail for any multidude of reasons.
 ### Fixed-Point Iteration Failures
 "The behavior of fixed-point iteration schemes can vary widely, from divergence, to slow converge, to rapid convergence" (Heath, 2009, p.226). This means that depending on the g(x) function used, fixed-point iteration method may not actually converge.
 
 ![](fixedpoint.PNG)
 
 As can be seen from the figure above (Heath, 2009, p.227), the top left function diverges, as each iteration takes it further away from the root. Whereas, for the other 3 functions, they do converge, but at varying speeds.
+
+For root solution $r$, if $r = g(r)$ and $|g'(r)| < 1$, we can say that the iterations are locally convergent. However, if $|g'(r)| > 1$, then the iterations will diverge if you don't guess it correctly on the first try.
 ## Special Case of Newton's method
 A special case of Newton's method to compute square roots is the Babylonian method, 
 which was used as far back as the ancient Greek times. To approximate some value $\sqrt{S}$, if 
