@@ -18,6 +18,7 @@ Title: Fixed point iteration method and Newton's method
 * [Reasons for failure](#Reasons-for-failure)
 	* [Fixed-Point Iteration Failures](#fixed-point-iteration-failures)
 	* [Newton's Method Failures](#Newtons-Method-failures)
+		* [Edge Case](#edge-case)
 * [Special Case of Newton's Method](#Special-Case-of-Newtons-method)
     * [Babylonian Method Example](#Babylonian-method-example)
 * [Pseudocode](#Pseudocode)
@@ -97,7 +98,7 @@ Although Newton's method can usually converge more quickly than fixed-point iter
 * If the derivative of f(x) is evaluated as 0, meaning a stationary point, then the method will fail as it is not possible to divide by zero.
 * If the derivative of f(x) does not exist or is discontinuous at the root, Newton's method will fail.
 * If the initial guess is too far away from the actual root, Newton's method may not converge. To determine if this will be the case, it is the same process as used to check divergence in [fixed point methods](#fixed-point-iteration-failures) but with $g(x) = x - f(x)/f'(x)$.
-* For some functions, using certain starting points results in an edge case where it may enter an infinite cycle.
+* For some functions, using certain starting points results in an [edge case](#edge-case) where it may enter an infinite cycle.
 #### Edge Case
 Suppose we have $f(x) = x^3 - 2x + 2$ and $f'(x) = 3x^2 - 2$.
 
