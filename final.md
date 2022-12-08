@@ -32,7 +32,16 @@ Title: Fixed point iteration method and Newton's method
 
 ## Pseudocode
 ### Fixed-Point Iteration
+```
+Given a function f(x) = 0, define f(x)
+Define g(x) by converting f(x) into form x = g(x)
+INPUT:
+	x_0 as initial guess
+	max_iterations as maximum number of iterations
+	tolerance as tolerance to stop iterations
+Define x_0 as initial guess
 
+```
 ### Newton's Method
 * Pseudocode
 
