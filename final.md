@@ -10,7 +10,7 @@ Title: Fixed point iteration method and Newton's method
 ## Table of Contents
 
 
-* [Section 1](#Section 1)
+* [Section 1](#Section-1)
 
 * Description of methods used to solve the problem
 	* Algorithms you learned! And perhaps some we didn't have time to go over.
