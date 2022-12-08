@@ -84,7 +84,7 @@ Title: Fixed point iteration method and Newton's method
 
 	x0 = x1
 
-5. Print x1 for final result
+6. Print x1 for final result
 ```
 
 
