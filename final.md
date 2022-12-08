@@ -37,8 +37,16 @@ with initial guess $x_0$.
 An example workthrough of fixed-point iteration method using the functions above is as followed:
 $$f(x)= x^2-3x-4$$
 $$g(x)= \frac{4}{x-3}$$
-$$x_0 = 2$$ as our initial guess
-
+$$x_0 = 2$$
+Then we have that
+$$x_1 = g(x_0) = \frac{4}{2-3} = -4$$
+$$x_2 = g(x_1) = \frac{4}{-4-3} = -0.571$$
+$$x_3 = g(x_2) = \frac{4}{-0.571-3} = -1.12$$
+$$x_4 = g(x_3) = \frac{4}{-1.12-3} = -0.971$$
+$$x_5 = g(x_4) = \frac{4}{-0.971-3} = -1.007$$
+$$x_6 = g(x_5) = \frac{4}{-1.007-3} = -0.998$$
+$$x_7 = g(x_6) = \frac{4}{-0.998-3} = -1.000$$
+where we can approximate from fixed-point iteration that one of the roots to f(x) is -1.
 Newton's method further elaborates on this by providing a more educated  
 ### test
 * hey
