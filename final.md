@@ -19,7 +19,7 @@ Title: Fixed point iteration method and Newton's method
 	* [Fixed-Point Iteration Failures](#fixed-point-iteration-failures)
 	* [Newton's Method Failures](#Newtons-Method-failures)
 * [Special Case of Newton's Method](#Special-Case-of-Newtons-method)
-    * [Example](#Example)
+    * [Babylonian Method Example](#Babylonian-method-example)
 * [Pseudocode](#Pseudocode)
     * [Fixed-Point Iteration Method](#Fixed-Point-Iteration-Method)
     * [Newton's Method](#Newtons-Method)
@@ -79,7 +79,7 @@ So fixed-point iteration will diverge if we are looking for root 4, but will loc
 Ideally, we would like a faster convergence, such that $g'(x) = 0$ so that the convergence rate is quadratic, and not linear. However, a constant such as $\frac{-1}{4}$ will still locally converge as shown in the example.
 ### Newton's Method Failures
 hey
-## Special Case of Newton's method
+## Special Case of Newton's Method
 A special case of Newton's method to compute square roots is the Babylonian method, 
 which was used as far back as the ancient Greek times. To approximate some value $\sqrt{S}$, if 
 x is an overestimate, then $\frac{S}{x}$ would be an underestimate. The rationale was that the average of 
@@ -91,7 +91,7 @@ $$g(x) = x - \frac{x^2 - S}{2x}$$
 $$= \frac{2x^2}{2x} - \frac{x^2-S}{2x} $$
 $$= \frac{1}{2}(\frac{x^2+S}{x})$$
 $$= \frac{1}{2}(x + \frac{S}{x})$$
-### Example
+### Babylonian Method Example
 Compute/approximate $\sqrt{S}$ for $S=335$. Let initial guess $x_0=20$.
 To perform Babylonian method we have $f(x)=x^2 - S$ and $g(x)=\frac{1}{2}(x + \frac{S}{x})$.
 
