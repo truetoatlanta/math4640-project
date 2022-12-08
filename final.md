@@ -53,11 +53,11 @@ $$x_7 = g(x_6) = \frac{4}{-0.998-3} = -1.000$$
 where we can approximate from fixed-point iteration that one of the roots to f(x) is -1.
 
 ### Newton
-Newton's method further elaborates on this algorithm by providing a more educated guess to use for g(x) in our iteration scheme. We are "approximating the function $f$ near $x_k$ by the tangent line at $f(x_k)$" (Heath, 2009, p.228).
+Newton's method further elaborates on fixed-point method by providing a more educated guess to use for g(x) in our iteration scheme. We are "approximating the function $f$ near $x_k$ by the tangent line at $f(x_k)$" (Heath, 2009, p.228).
 
 ![](newton.PNG)
 
-
+where the iteration scheme for Newton's method is $x_{k+1} = g(x) = x_k - f(x_k)/f'(x_k)$.
 ### Newton's Method Example
 example here! 
 ## Reasons for failure
