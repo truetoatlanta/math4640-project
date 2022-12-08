@@ -41,6 +41,7 @@ $$= \frac{1}{2}(\frac{x^2+S}{x})$$
 $$= \frac{1}{2}(x + \frac{S}{x})$$
 ### Example
 Compute/approximate $\sqrt{S}$ for $S=335$. Let initial guess $x_0=20$.
+To perform Babylonian method we have $f(x)=x^2 - S$ and $g(x)=\frac{1}{2}(x + \frac{S}{x})$.
 
 $$x_1 = \frac{1}{2}(x_0 + \frac{S}{x_0}) = \frac{1}{2}(20 + \frac{335}{20})$$
 ## Pseudocode
