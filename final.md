@@ -105,6 +105,7 @@ Suppose we have $f(x) = x^3 - 2x + 2$ and $f'(x) = 3x^2 - 2$.
 If we are to perform Newton's method, starting with $x_0=0$ as our initial guess, we get:
 
 $$x_{k+1} = x_k - f(x_k)/f'(x_k)$$
+
 $$x_1 = x_0 - f(x_0)/f'(x_0) = 1$$
 $$x_2 = x_1 - f(x_1)/f'(x_1) = 0$$
 $$x_3 = x_2 - f(x_2)/f'(x_2) = 1$$
