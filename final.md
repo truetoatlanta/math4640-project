@@ -14,10 +14,10 @@ Title: Fixed point iteration method and Newton's method
 	* [test](#test)
 * [Section 2](#Section-2)
 * [Special Case of Newton's Method](#Special-Case-of-Newtons-method)
-* 	* [Example](#Example)
+    * [Example](#Example)
 * [Pseudocode](#Pseudocode)
-	* [Fixed-Point Iteration](#Fixed-Point-Iteration)
-	* [Newton's Method](#Newtons-Method)
+    * [Fixed-Point Iteration](#Fixed-Point-Iteration)
+    * [Newton's Method](#Newtons-Method)
 * [References](#References)
 ## Section 1
 
