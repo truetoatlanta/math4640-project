@@ -59,7 +59,7 @@ Newton's method further elaborates on fixed-point method by providing a more edu
 
 where the iteration scheme for Newton's method is $x_{k+1} = g(x) = x_k - f(x_k)/f'(x_k)$.
 ### Newton's Method Example
-example here! 
+Newton's method follows basically the same steps as a fixed-point iteration method one would, but using $g(x) = x_k - f(x_k)/f'(x_k)$.
 ## Reasons for failure
 However, these algorithms and methods are not perfect and can fail for any multidude of reasons.
 ### Fixed-Point Iteration Failures
