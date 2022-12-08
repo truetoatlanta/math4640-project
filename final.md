@@ -60,6 +60,11 @@ Newton's method further elaborates on fixed-point method by providing a more edu
 where the iteration scheme for Newton's method is $x_{k+1} = g(x) = x_k - f(x_k)/f'(x_k)$.
 ### Newton's Method Example
 Newton's method follows basically the same steps as a fixed-point iteration method one would, but using $g(x) = x_k - f(x_k)/f'(x_k)$.
+
+Perform a few iterations of Newton's method to find the roots of $f(x) = x - e^{-x}$ using initial gueuss $x_0 = 1/3$.
+$$f'(x) = 1 + e^{-x}$$
+$$x_{k+1} = x_k - f(x_k)/f'(x_k)$$
+$$x_1 = x_0 - f(x_0)/f'(x_0) = \frac{1}{3} - f(\frac{1}{3})/f'(\frac{1}{3}) = 0.556573$$
 ## Reasons for failure
 However, these algorithms and methods are not perfect and can fail for any multidude of reasons.
 ### Fixed-Point Iteration Failures
