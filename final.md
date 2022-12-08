@@ -16,7 +16,7 @@ Title: Fixed point iteration method and Newton's method
 * [Section 3](#Section-3)
 * [Pseudocode](#Pseudocode)
 	* [Fixed-Point Iteration](#Fixed-Point-Iteration)
-	* [Newton's Method](#Newton's-Method)
+	* [Newton's Method](#Newtons-Method)
 * [References](#References)
 ## Section 1
 
