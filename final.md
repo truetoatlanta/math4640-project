@@ -30,6 +30,9 @@ $$g(x) = \frac{x^2-4}{3}$$
 
 $$g(x) = \frac{4}{x-3}$$
 
+where g(x) = x. The iteration scheme for fixed-point is as followed:
+$$x_{k+1} = g(x_k)$$
+with initial guess $x_0$.
 Newton's method further elaborates on this by providing a more educated  
 ### test
 * hey
