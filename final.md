@@ -10,7 +10,7 @@ Title: Fixed point iteration method and Newton's method
 ## Table of Contents
 
 
-* An appropriate explanation of the key points of the topic (see "Audience" below)
+* [Section 1](#Section1)
 
 * Description of methods used to solve the problem
 	* Algorithms you learned! And perhaps some we didn't have time to go over.
@@ -40,6 +40,9 @@ For example, try:
 * Grammar or spelling errors
 * Plagarism. I will check your documents (it's easy to do this, since they will all be plain text). If you plagarize, it will be obvious. 
 
+## Section1
+
+* Hey
 ## Some things you are allowed to do but might not be obvious
 
 * You _are_ allowed to use external links! You are also encouraged to cite other books and papers (see below for that).
