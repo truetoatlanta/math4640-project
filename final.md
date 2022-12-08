@@ -31,12 +31,12 @@ Title: Fixed point iteration method and Newton's method
 A special case of Newton's method to compute square roots is the Babylonian method, 
 which was used as far back as the ancient Greek times. To approximate some value $\sqrt{S}$, if 
 x is an overestimate, then $\frac{S}{x}$ would be an underestimate. The rationale was that the average of 
-these two values could be a better approximation for $\sqrt{S}$. With enough iterations, the approximation would 
+these two values, $\frac{1}{2}(x + \frac{S}{x})$, could be a better approximation for $\sqrt{S}$. With enough iterations, the approximation would 
 converge to an accurate square root value.
 
 This is the same as employing Newton's method and solving for the roots of the function $f(x) = x^2 - S$. 
 Since for Newton's method we have that $g(x) = x - \frac{f(x)}{f'(x)}$, for the given function we have 
-$g(x) = x - \frac{x^2 - S}{2x}
+$g(x) = x - \frac{x^2 - S}{2x}$
 
 * Here talk about the special case of Newton's method
 * Is Newton's method technically a special case of fixed point?
