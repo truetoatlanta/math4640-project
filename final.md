@@ -22,7 +22,15 @@ Title: Fixed point iteration method and Newton's method
 * [References](#References)
 ## History and Analysis
 
-* An appropriate explanation of the key points of the topic
+The fixed-point iteration method is used to find solutions for f(x) = 0. By rewriting f(x) in such a way to define a function g such that x = g(x), we have "a fixed point of the function g, since x is unchanged when g is applied to it" (Heath, 2009, p.225).
+
+### Fixed-Point Example
+For some function $f(x)=x^2-3x-4$, we can rewrite this for fixed-point functions such as
+$$g(x) = \frac{x^2-4}{3}$$
+
+$$g(x) = \frac{4}{x-3}$$
+
+Newton's method further elaborates on this by providing a more educated  
 ### test
 * hey
 ## Description
