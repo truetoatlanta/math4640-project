@@ -33,6 +33,7 @@ Title: Fixed point iteration method and Newton's method
 * Is Newton's method technically a special case of fixed point?
 
 ## Pseudocode
+Below is pseudocode to represent the algorithms in this paper in a more readable form.
 ### Fixed-Point Iteration
 ```
 1. Define f(x) from given function f(x) = 0
