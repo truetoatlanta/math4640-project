@@ -91,7 +91,9 @@ So fixed-point iteration will diverge if we are looking for root 4, but will loc
 
 Ideally, we would like a faster convergence, such that $g'(x) = 0$ so that the convergence rate is quadratic, and not linear. However, a constant such as $\frac{-1}{4}$ will still locally converge as shown in the example.
 ### Newton's Method Failures
-hey
+Although Newton's method can usually converge more quickly than fixed-point iteration method would, there are limitations and conditions that can cause the method to fail.
+* If the derivative of f(x) is evaluated as 0, meaning a stationary point, then the method will fail as it is not possible to divide by zero.
+* If the initial guess is too far away from the actual root, Newton's method may not converge. To determine if this will be the case, it is the same process as used to check divergence in [fixed point methods](#fixed-point-iteration-failures) but with $g(x) = x - f(x)/f'(x)$.
 ## Special Case of Newton's Method
 A special case of Newton's method to compute square roots is the Babylonian method, 
 which was used as far back as the ancient Greek times. To approximate some value $\sqrt{S}$, if 
