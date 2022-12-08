@@ -107,8 +107,11 @@ If we are to perform Newton's method, starting with $x_0=0$ as our initial guess
 $$x_{k+1} = x_k - f(x_k)/f'(x_k)$$
 
 $$x_1 = x_0 - f(x_0)/f'(x_0) = 1$$
+
 $$x_2 = x_1 - f(x_1)/f'(x_1) = 0$$
+
 $$x_3 = x_2 - f(x_2)/f'(x_2) = 1$$
+
 $$x_4 = x_3 - f(x_3)/f'(x_3) = 0$$
 
 where the iterations enter a cycle, looping between 0 and 1 infinitely without reaching a better approximation.
