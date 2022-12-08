@@ -25,7 +25,7 @@ Title: Fixed point iteration method and Newton's method
 The fixed-point iteration method is used to find solutions for f(x) = 0. By rewriting f(x) in such a way to define a function g such that x = g(x), we have "a fixed point of the function g, since x is unchanged when g is applied to it" (Heath, 2009, p.225).
 
 ### Fixed-Point Example
-For some function $f(x)=x^2-3x-4$, we can rewrite this for fixed-point functions such as
+For some function $f(x)=x^2-3x-4$ with roots 4 and -1, we can rewrite this for fixed-point functions such as
 $$g(x) = \frac{x^2-4}{3}$$
 
 $$g(x) = \frac{4}{x-3}$$
@@ -64,6 +64,17 @@ However, these algorithms and methods are not perfect and can fail for any multi
 As can be seen from the figure above (Heath, 2009, p.227), the top left function diverges, as each iteration takes it further away from the root. Whereas, for the other 3 functions, they do converge, but at varying speeds.
 
 For root solution $r$, if $r = g(r)$ and $|g'(r)| < 1$, we can say that the iterations are locally convergent. However, if $|g'(r)| > 1$, then the iterations will diverge if you don't guess it correctly on the first try.
+
+Looking back at [our example from earlier](#fixed-point-example), let's consider g(x) and evaluate the derivative at the root 4 and -1. 
+$$g(x) = \frac{4}{x-3}$$
+$$g'(x) = \frac{-4}{(x-3)^2}$$
+$$g'(4) = \frac{-4}{1} = -4$$
+$$|-4| > 1$$
+$$g'(-1) = \frac{-4}{16} = \frac{-1}{4}$$
+$$|\frac{-1}{4} < 1$$
+So fixed-point iteration will diverge if we are looking for root 4, but will locally converge when looking for root -1. 
+
+Ideally, we would like a faster convergence, such that $g'(x) = 0$ so that the convergence rate is quadratic, and not linear. However, a constant such as $\frac{-1}{4}$ will still locally converge as shown in the example.
 ## Special Case of Newton's method
 A special case of Newton's method to compute square roots is the Babylonian method, 
 which was used as far back as the ancient Greek times. To approximate some value $\sqrt{S}$, if 
