@@ -75,7 +75,7 @@ We can continue iterating until we reach the desired number of decimal places of
 ## Reasons for failure
 However, these algorithms and methods are not perfect and can fail for any multidude of reasons.
 ### Fixed-Point Iteration Failures
-"The behavior of fixed-point iteration schemes can vary widely, from divergence, to slow converge, to rapid convergence" (Heath, 2009, p.226). This means that depending on the g(x) function used, fixed-point iteration method may not actually converge.
+"The behavior of fixed-point iteration schemes can vary widely, from divergence, to slow convergence, to rapid convergence" (Heath, 2009, p.226). This means that depending on the g(x) function used, fixed-point iteration method may not actually converge.
 
 ![](fixedpoint.PNG)
 
