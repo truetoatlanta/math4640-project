@@ -44,6 +44,13 @@ x0: initial guess
 end
 End iterations if maximum iterations or error tolerance reached.	
 **`Some text`**
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
 ```
 ### Newton's Method
 ```
