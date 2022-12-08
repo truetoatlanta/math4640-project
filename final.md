@@ -43,32 +43,47 @@ Title: Fixed point iteration method and Newton's method
 5. for (k in max_iterations)
 	x1 = g(x0)
 	count = count + 1
+
 	if count > max_iterations
-	    print "Diverged"
+	    print "Did not converge"
 	    return None 
+
 	if |x1 - x0| < tolerance
 	    return x1
+
 	x0 = x1
+
 6. Print x1 for final result	
 ```
 ### Newton's Method
 ```
 1. Define f(x) whose root we are looking for
 2. Define fprime(x) as the derivative of f(x)
-3. INPUT:
+3. Define counter as count = 1
+4. INPUT:
     x0 as initial guess
     max_iterations as maximum number of iterations
     tolerance as tolerance to stop iterations
-4. for (k in max_iterations)
+5. for (k in max_iterations)
 	y0 = f(x0)
 	yprime = fprime(x0)
+	count = count + 1
+
 	if yprime == 0
 	    print "Divide by zero error"
 	    return None
+
+	if count > max_iterations
+	    print "Did not converge"
+	    return None
+
 	x1 = x0 - y0/yprime
+
 	if |x1 - x0| < tolerance
 	    return x1
+
 	x0 = x1
+
 5. Print x1 for final result
 ```
 
