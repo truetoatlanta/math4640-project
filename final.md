@@ -39,7 +39,7 @@ where g(x) = x. The iteration scheme for fixed-point is as followed:
 $$x_{k+1} = g(x_k)$$
 with initial guess $x_0$.
 
-An example workthrough of fixed-point iteration method using the functions above is as followed:
+An example work through of fixed-point iteration method using the functions above is as followed:
 $$f(x)= x^2-3x-4$$
 $$g(x)= \frac{4}{x-3}$$
 $$x_0 = 2$$
@@ -60,7 +60,7 @@ Newton's method further elaborates on fixed-point method by providing a more edu
 
 where the iteration scheme for Newton's method is $x_{k+1} = g(x) = x_k - f(x_k)/f'(x_k)$.
 
-It should be noted that if the root has [multiplicity](https://www.mathwords.com/m/multiplicity.htm) greater than 1, Newton's method is linearly convergent and not ncessarily a faster way of approximating the root.
+It should be noted that if the root has [multiplicity](https://www.mathwords.com/m/multiplicity.htm) greater than 1, Newton's method is linearly convergent and not necessarily a faster way of approximating the root.
 ### Newton's Method Example
 Newton's method follows basically the same steps as a fixed-point iteration method one would, but using $g(x) = x_k - f(x_k)/f'(x_k)$.
 
@@ -73,7 +73,7 @@ $$x_3 = x_2 - f(x_2)/f'(x_2) = 0.567123 - f(0.567123)/f'(0.567123) = 0.567143$$
 $$x_4 = x_3 - f(x_3)/f'(x_3) = 0.567143 - f(0.567143)/f'(0.567143) = 0.567150$$
 We can continue iterating until we reach the desired number of decimal places of precision, but for the sake of example, this should be enough. Thus we can say that a root of $f(x)$ is $\approx 0.567150$.
 ## Reasons for failure
-However, these algorithms and methods are not perfect and can fail for any multidude of reasons.
+However, these algorithms and methods are not perfect and can fail for any multitude of reasons.
 ### Fixed-Point Iteration Failures
 "The behavior of fixed-point iteration schemes can vary widely, from divergence, to slow convergence, to rapid convergence" (Heath, 2009, p.226). This means that depending on the g(x) function used, fixed-point iteration method may not actually converge.
 
