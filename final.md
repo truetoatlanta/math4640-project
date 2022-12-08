@@ -34,14 +34,15 @@ x is an overestimate, then $\frac{S}{x}$ would be an underestimate. The rational
 these two values, $\frac{1}{2}(x + \frac{S}{x})$, could be a better approximation for $\sqrt{S}$. With enough iterations, the approximation would 
 converge to an accurate square root value.
 
-This is the same as employing Newton's method and solving for the roots of the function $f(x) = x^2 - S$. 
+This "average of the two values" can be equivalently deduced by employing Newton's method and solving for the roots of the function $f(x) = x^2 - S$. 
 For Newton's method $g(x)$ is defined as $g(x) = x - \frac{f(x)}{f'(x)}$. Thus: 
 $$g(x) = x - \frac{x^2 - S}{2x}$$
 $$= \frac{2x^2}{2x} - \frac{x^2-S}{2x} $$
 $$= \frac{1}{2}(\frac{x^2+S}{x})$$
 $$= \frac{1}{2}(x + \frac{S}{x})$$
-which is equivalent to the average of the overestimate and underestimate methodology as described above.
 
+It should also be stated that Newton's method is a version of fixed-point iteration method, just with 
+a different definition for $g(x)$.
 ## Pseudocode
 Below is pseudocode to represent the algorithms in this paper in a more readable form.
 ### Fixed-Point Iteration
