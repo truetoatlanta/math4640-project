@@ -201,4 +201,4 @@ Below is pseudocode for the fixed-point iteration and Newton's method algorithms
 ## References
 
 1. Fowler, D., & Robson, E. (1998). Square Root Approximations in Old Babylonian Mathematics: YBC 7289 in Context. https://doi.org/10.1006%2Fhmat.1998.2209
-2. Heath, M. T. (2009). Scientific Computing: An Introductory Survey (pp. 100-30000). McGraw Hill. 
+2. Heath, M. T. (2009). Scientific Computing: An Introductory Survey (pp. 215-254). McGraw Hill. 
