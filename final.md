@@ -58,6 +58,8 @@ Newton's method further elaborates on fixed-point method by providing a more edu
 ![](newton.PNG)
 
 where the iteration scheme for Newton's method is $x_{k+1} = g(x) = x_k - f(x_k)/f'(x_k)$.
+
+It should be noted that if the root has [multiplicity](https://www.mathwords.com/m/multiplicity.htm) greater than 1, Newton's method is linearly convergent and not ncessarily a faster way of approximating the root.
 ### Newton's Method Example
 Newton's method follows basically the same steps as a fixed-point iteration method one would, but using $g(x) = x_k - f(x_k)/f'(x_k)$.
 
@@ -93,6 +95,7 @@ Ideally, we would like a faster convergence, such that $g'(x) = 0$ so that the c
 ### Newton's Method Failures
 Although Newton's method can usually converge more quickly than fixed-point iteration method would, there are limitations and conditions that can cause the method to fail.
 * If the derivative of f(x) is evaluated as 0, meaning a stationary point, then the method will fail as it is not possible to divide by zero.
+* If the derivative of f(x) does not exist or is discontinuous at the root, Newton's method will fail.
 * If the initial guess is too far away from the actual root, Newton's method may not converge. To determine if this will be the case, it is the same process as used to check divergence in [fixed point methods](#fixed-point-iteration-failures) but with $g(x) = x - f(x)/f'(x)$.
 ## Special Case of Newton's Method
 A special case of Newton's method to compute square roots is the Babylonian method, 
