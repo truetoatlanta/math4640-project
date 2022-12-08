@@ -61,10 +61,14 @@ where the iteration scheme for Newton's method is $x_{k+1} = g(x) = x_k - f(x_k)
 ### Newton's Method Example
 Newton's method follows basically the same steps as a fixed-point iteration method one would, but using $g(x) = x_k - f(x_k)/f'(x_k)$.
 
-Perform a few iterations of Newton's method to find the roots of $f(x) = x - e^{-x}$ using initial gueuss $x_0 = 1/3$.
+Perform a few iterations of Newton's method to find the roots of $f(x) = x - e^{-x}$ using initial guess $x_0 = 1/3$.
 $$f'(x) = 1 + e^{-x}$$
 $$x_{k+1} = x_k - f(x_k)/f'(x_k)$$
 $$x_1 = x_0 - f(x_0)/f'(x_0) = \frac{1}{3} - f(\frac{1}{3})/f'(\frac{1}{3}) = 0.556573$$
+$$x_2 = x_1 - f(x_1)/f'(x_1) = 0.556573 - f(0.556573)/f'(0.556573) = 0.567123$$
+$$x_3 = x_2 - f(x_2)/f'(x_2) = 0.567123 - f(0.567123)/f'(0.567123) = 0.567143$$
+$$x_4 = x_3 - f(x_3)/f'(x_3) = 0.567143 - f(0.567143)/f'(0.567143) = 0.567150$$
+We can continue iterating until we reach the desired number of decimal places of precision, but for the sake of example, this should be enough. Thus we can say that a root of $f(x)$ is $\approx 0.567150$.
 ## Reasons for failure
 However, these algorithms and methods are not perfect and can fail for any multidude of reasons.
 ### Fixed-Point Iteration Failures
