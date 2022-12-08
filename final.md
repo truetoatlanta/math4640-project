@@ -35,9 +35,9 @@ these two values, $\frac{1}{2}(x + \frac{S}{x})$, could be a better approximatio
 converge to an accurate square root value.
 
 This is the same as employing Newton's method and solving for the roots of the function $f(x) = x^2 - S$. 
-For Newton's method g(x) is defined as $g(x) = x - \frac{f(x)}{f'(x)}$. Thus: 
+For Newton's method $g(x)$ is defined as $g(x) = x - \frac{f(x)}{f'(x)}$. Thus: 
 $$g(x) = x - \frac{x^2 - S}{2x}$$
-$$= x + 1$$
+$$ = \frac{2x^2}{2x}-\frac{x^2-S}{2x}$$
 * Here talk about the special case of Newton's method
 * Is Newton's method technically a special case of fixed point?
 
