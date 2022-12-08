@@ -39,7 +39,10 @@ $$g(x) = x - \frac{x^2 - S}{2x}$$
 $$= \frac{2x^2}{2x} - \frac{x^2-S}{2x} $$
 $$= \frac{1}{2}(\frac{x^2+S}{x})$$
 $$= \frac{1}{2}(x + \frac{S}{x})$$
+### Example
+Compute/approximate $\sqrt{S}$ for $S=335$. Let initial guess $x_0=20$.
 
+$$x_1 = \frac{1}{2}(x_0 + \frac{S}{x_0}) = \frac{1}{2}(20 + \frac{335}{20})$$
 ## Pseudocode
 Below is pseudocode to represent the algorithms in this paper in a more readable form.
 ### Fixed-Point Iteration
