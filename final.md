@@ -39,7 +39,7 @@ f(x): given function where f(x) = 0
 g(x): convert f(x) into form x = g(x)
 x0: initial guess
 <pre>
-<b>for</b> k=0,1,2,...
+**for** k=0,1,2,...
 	x1 = g(x0)
 <b>end</b></pre>
 End iterations if maximum iterations or error tolerance reached.	
