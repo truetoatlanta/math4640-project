@@ -43,6 +43,13 @@ x0: initial guess
 	x1 = g(x0)
 end
 End iterations if maximum iterations or error tolerance reached.	
+
+<pre><code>However, I have another option.
+I can use a code block that works very nicely 
+but I can not <b>bold text</b> a particular part of the code
+<a href="https://meta.stackexchange.com/q/243709">I want to stand out.</a>
+Just to make it easier to locate.
+Nor can I make the font smaller and get rid of that ugly scroll bar. It's just slightly too wide.</code></pre>
 ```
 ### Newton's Method
 ```
