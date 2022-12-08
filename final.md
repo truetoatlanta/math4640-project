@@ -12,32 +12,18 @@ Title: Fixed point iteration method and Newton's method
 
 * [Section 1](#Section-1)
 
-* Description of methods used to solve the problem
-	* Algorithms you learned! And perhaps some we didn't have time to go over.
+* [Section 2](#Section-2)
 
-* When the methods fail and when they do well
-	* For example, conditioning can play a role here.
+* [Section 3](#Section-3)
 
-* Examples of edge cases or special cases of the problem. 
-	* For example, solving banded matrices is a "special case" of solving a linear system.
+* [Section 4](#Section-4)
 
-* Compact pseudocode for key algorithms in the topic you chose
-
-* Appropriate paper and book references at the bottom of the document. Use [APA style](https://www.citationmachine.net/apa).
-
-* I encourage you to write a report that is a hybrid between a Wikipedia article (a bit more general audience) and a [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) article (a bit more technical). 
-For example, try:
-	* Including some history and example applications in your report (Wikipedia-style) 
-	* Including some pseudocode and some degree of neuance via equations (Scholarpedia-style)
-	* Here are some such examples 
-		* http://www.scholarpedia.org/article/Galerkin_methods
-		* http://www.scholarpedia.org/article/Meshless_methods_for_PDEs
-		* https://en.wikipedia.org/wiki/Euler_method 
-
+* [References](#References)
 ## Section 1
 
 * An appropriate explanation of the key points of the topic
-
+### test
+* hey
 ## Section 2
 
 * Description of methods used to solve the problem
@@ -61,7 +47,8 @@ For example, try:
 6. This
 7. Bryngelson, S. H., & Freund, J. B. (2018). Global stability of flowing red blood cell trains. Physical Review Fluids, 3(7). https://doi.org/10.1103/physrevfluids.3.073101 
 
-
+## ANYTHING BELOW THIS IS NOT IN THE PAPER DRAFT
+## ---------------------
 ## Formatting 
 
 Use "Github" flavored markdown, which is a slightly more powerful version of usual markdown. The file extension is usually `.md`.
