@@ -35,27 +35,13 @@ Title: Fixed point iteration method and Newton's method
 ## Pseudocode
 ### Fixed-Point Iteration
 ```
-1. Define f(x) from given function f(x) = 0
-2. Define g(x) by converting f(x) into form x = g(x)
-3. Define counter as count = 1
-4. INPUT:
-    x0 as initial guess
-    max_iterations as maximum number of iterations
-    tolerance as tolerance to stop iterations
-5. for (k in max_iterations)
+f(x): given function where f(x) = 0
+g(x): convert f(x) into form x = g(x)
+x0: initial guess
+__for__ k=0,1,2,...
 	x1 = g(x0)
-	count = count + 1
-
-	if count > max_iterations
-	    print "Did not converge"
-	    return None 
-
-	if |x1 - x0| < tolerance
-	    return x1
-
-	x0 = x1
-
-6. Print x1 for final result	
+__end__
+End iterations if maximum iterations or error tolerance reached.	
 ```
 ### Newton's Method
 ```
