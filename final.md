@@ -40,9 +40,7 @@ $$g(x) = x - \frac{x^2 - S}{2x}$$
 $$= \frac{2x^2}{2x} - \frac{x^2-S}{2x} $$
 $$= \frac{1}{2}(\frac{x^2+S}{x})$$
 $$= \frac{1}{2}(x + \frac{S}{x})$$
-
-* Here talk about the special case of Newton's method
-* Is Newton's method technically a special case of fixed point?
+which is equivalent to the average of the overestimate and underestimate methodology as described above.
 
 ## Pseudocode
 Below is pseudocode to represent the algorithms in this paper in a more readable form.
