@@ -55,8 +55,11 @@ Newton's method further elaborates on this by providing a more educated
 * Description of methods used to solve the problem
 
 ## Reasons for failure
+However, these algorithms and methods are not perfect and can fail any multidude of reasons.
+### Fixed-Point Iteration Failures
+"The behavior of fixed-point iteration schemes can vary widely, from divergence, to slow converge, to rapid convergence" (Heath, 2009, p.226). 
 
-* when methods fail and when they do well
+![](fixedpoint.png)
 ## Special Case of Newton's method
 A special case of Newton's method to compute square roots is the Babylonian method, 
 which was used as far back as the ancient Greek times. To approximate some value $\sqrt{S}$, if 
