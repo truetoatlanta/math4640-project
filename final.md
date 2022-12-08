@@ -14,13 +14,13 @@ Title: Fixed point iteration method and Newton's method
 	* [test](#test)
 * [Section 2](#Section-2)
 * [Section 3](#Section-3)
-* [Section 4](#Section-4)
+* [Pseudocode](#Pseudocode)
 * [References](#References)
 ## Section 1
 
 * An appropriate explanation of the key points of the topic
 ### test
-	* hey
+* hey
 ## Section 2
 
 * Description of methods used to solve the problem
@@ -30,8 +30,10 @@ Title: Fixed point iteration method and Newton's method
 * Here talk about the special case of Newton's method
 * Is Newton's method technically a special case of fixed point?
 
-## Section 4
+## Pseudocode
+### Fixed-Point Iteration
 
+### Newton's Method
 * Pseudocode
 
 ## References
