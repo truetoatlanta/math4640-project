@@ -11,19 +11,16 @@ Title: Fixed point iteration method and Newton's method
 
 
 * [Section 1](#Section-1)
-
+	* [test](#test)
 * [Section 2](#Section-2)
-
 * [Section 3](#Section-3)
-
 * [Section 4](#Section-4)
-
 * [References](#References)
 ## Section 1
 
 * An appropriate explanation of the key points of the topic
 ### test
-* hey
+	* hey
 ## Section 2
 
 * Description of methods used to solve the problem
