@@ -51,9 +51,13 @@ $$x_5 = g(x_4) = \frac{4}{-0.971-3} = -1.007$$
 $$x_6 = g(x_5) = \frac{4}{-1.007-3} = -0.998$$
 $$x_7 = g(x_6) = \frac{4}{-0.998-3} = -1.000$$
 where we can approximate from fixed-point iteration that one of the roots to f(x) is -1.
-Newton's method further elaborates on this by providing a more educated  
+
 ### Newton
-* hey
+Newton's method further elaborates on this algorithm by providing a more educated guess to use for g(x) in our iteration scheme. We are "approximating the function $f$ near $x_k$ by the tangent line at $f(x_k)$" (Heath, 2009, p.228).
+
+![](newton.PNG)
+
+
 ### Newton's Method Example
 example here! 
 ## Reasons for failure
