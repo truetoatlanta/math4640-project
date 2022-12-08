@@ -33,6 +33,12 @@ $$g(x) = \frac{4}{x-3}$$
 where g(x) = x. The iteration scheme for fixed-point is as followed:
 $$x_{k+1} = g(x_k)$$
 with initial guess $x_0$.
+
+An example workthrough of fixed-point iteration method using the functions above is as followed:
+$$f(x)= x^2-3x-4$$
+$$g(x)= \frac{4}{x-3}$$
+$$x_0 = 2$$ as our initial guess
+
 Newton's method further elaborates on this by providing a more educated  
 ### test
 * hey
